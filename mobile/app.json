@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Drive Live Preview",
+    "slug": "drive-live-preview",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#111827"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.driveLivePreview"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19d04735-6aa4-4124-b59e-e3cf1228b9ac"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/19d04735-6aa4-4124-b59e-e3cf1228b9ac"
+    }
+  }
+}

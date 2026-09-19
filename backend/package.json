@@ -1,0 +1,19 @@
+{
+  "name": "drive-live-preview-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test:drive": "node test/driveService.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^9.0.1"
+  }
+}
